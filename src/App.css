@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 *,
 *:before,
 *:after {
@@ -203,5 +207,43 @@ button {
         margin-bottom: 2em;
         margin-top: 0.75em;
         font-size: 1rem;
+    }
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+.App {
+    animation: fadeIn 1s ease-in-out;
+}
+.section.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s ease-in-out;
+    overflow: hidden;
+}
+
+.section.container img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+/* App.css */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
