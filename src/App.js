@@ -10,10 +10,23 @@ export default function App() {
         <div>
             {/*<QrCode/>*/}
             {/*<Navbar /> /!* Navbar bileşeni *!/*/}
-            <div className="section container">
+            {/* <div className="section container">
                 <img src={menu1} alt="Menu" />
                 <img src={menu1} alt="Menu" />
                 <img src={menu1} alt="Menu" />
+            </div> */}
+            <div className="test">
+                <div className="container">
+                    <div className="section">
+                        <img src={menu1} alt="Menu" />
+                    </div>
+                    <div className="section">
+                        <img src={menu1} alt="Menu" />
+                    </div>
+                    <div className="section"> 
+                        <img src={menu1} alt="Menu" />
+                    </div>
+                </div>
             </div>
             {/*<Footer /> /!* Footer bileşeni *!/*/}
         </div>
